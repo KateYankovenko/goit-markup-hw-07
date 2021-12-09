@@ -4,7 +4,18 @@
   text-align: center;
   background-color: var(--section-color);
 }
-
+.hero-title {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: var(--section-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 .overlay {
   max-width: 1600px;
   min-height: 600px;
@@ -18,16 +29,4 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-.hero-title {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  color: var(--section-text-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }

@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .list {
   padding: 0px;
   margin: 0px;
@@ -21,4 +31,10 @@
     color: var(--accent-color);
     text-decoration: none;
   }
+}
+.image {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
 }

@@ -1,0 +1,22 @@
+.preferences {
+  display: flex;
+  justify-content: center;
+}
+.pref-item {
+  padding: 0px;
+  margin: 0px;
+  width: 270px;
+}
+.preferences .pref-item:not(:last-child) {
+  margin-right: 30px;
+}
+.pref-card {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--second-section-color);
+}
