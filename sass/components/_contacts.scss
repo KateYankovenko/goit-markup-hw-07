@@ -19,12 +19,12 @@
   text-decoration: none;
   align-items: center;
 }
-.contact-item:not(:first-child) {
-  margin-left: 30px;
-}
 .contact-header:hover,
 .contact-header:focus {
   color: var(--accent-color);
+}
+.contact-item:not(:first-child) {
+  margin-left: 30px;
 }
 .contact-footer,
 .footer-addr {

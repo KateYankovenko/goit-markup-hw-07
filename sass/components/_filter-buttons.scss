@@ -25,31 +25,32 @@
   transition-property: background-color;
   transition-duration: var(--animation-duration);
   transition-timing-function: var(--animation-function);
-}
-.filter-button first {
-  display: inline-block;
-  min-width: 73px;
-  min-height: 38px;
-}
-.filter-button second {
-  display: inline-block;
-  min-width: 128px;
-  min-height: 38px;
-}
-.filter-button third {
-  display: inline-block;
-  min-width: 145px;
-  min-height: 38px;
-}
-.filter-button fourth {
-  display: inline-block;
-  min-width: 103px;
-  min-height: 38px;
-}
-.filter-button fifth {
-  display: inline-block;
-  min-width: 130px;
-  min-height: 38px;
+
+  first {
+    display: inline-block;
+    min-width: 73px;
+    min-height: 38px;
+  }
+  second {
+    display: inline-block;
+    min-width: 128px;
+    min-height: 38px;
+  }
+  third {
+    display: inline-block;
+    min-width: 145px;
+    min-height: 38px;
+  }
+  fourth {
+    display: inline-block;
+    min-width: 103px;
+    min-height: 38px;
+  }
+  fifth {
+    display: inline-block;
+    min-width: 130px;
+    min-height: 38px;
+  }
 }
 .filter-button:hover,
 .filter-button:focus {

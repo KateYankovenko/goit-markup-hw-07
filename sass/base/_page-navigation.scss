@@ -6,6 +6,9 @@
   position: relative;
   display: flex;
   margin-left: 93px;
+  .list-item + .list-item {
+    margin-left: 50px;
+  }
   .link {
     display: block;
     padding-top: 32px;
@@ -17,15 +20,11 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     bottom: -1px;
+    .current {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
   }
-}
-.site-nav .list-item + .list-item {
-  margin-left: 50px;
-}
-
-.site-nav .link.current {
-  color: var(--accent-color);
-  text-decoration: none;
 }
 .current {
   color: var(--accent-color);
@@ -89,7 +88,6 @@
   border-radius: 2px;
   opacity: 0;
 }
-
 .prtf-page:hover::after {
   opacity: 1;
 }
