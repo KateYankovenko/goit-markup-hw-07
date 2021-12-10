@@ -5,9 +5,6 @@
 }
 .occupation {
   display: flex;
-  .occupation-item:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 .occ-img {
   display: block;
@@ -15,6 +12,9 @@
 .occupation-item {
   position: relative;
   align-items: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .card-inscript {
   position: absolute;

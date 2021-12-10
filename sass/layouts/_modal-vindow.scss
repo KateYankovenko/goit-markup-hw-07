@@ -38,10 +38,10 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-}
-.modal-button:hover,
-.modal-button:focus {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 .modal-title {
   display: block;
@@ -110,9 +110,9 @@
 }
 .modal-input:focus {
   border: 1px solid var(--accent-color);
-}
-.modal-input:focus + .form-icon {
-  fill: var(--accent-color);
+  & + .form-icon {
+    fill: var(--accent-color);
+  }
 }
 .modal-user-text {
   width: 100%;
@@ -132,9 +132,9 @@
   color: rgba(117, 117, 117, 0.5);
 
   transition: transform var(--animation-duration) var(--animation-function);
-}
-.modal-user-text:focus {
-  border: 1px solid var(--accent-color);
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 .modal-form-checkbox {
   display: flex;

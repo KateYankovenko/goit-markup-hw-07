@@ -54,9 +54,9 @@
   align-items: center;
   background-color: transparent;
   fill: var(--svg-fill-color);
-}
-.social-page-link:hover,
-.social-page-link:focus {
-  fill: var(--first-section-color);
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--first-section-color);
+    background-color: var(--accent-color);
+  }
 }

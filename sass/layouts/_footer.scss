@@ -16,15 +16,15 @@
   flex-wrap: wrap;
   width: 231px;
   min-height: 81px;
+  & .contact-footer:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 .footer-addr {
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 9px;
   color: var(--section-text-color);
-}
-.footer-info .contact-footer:not(:last-child) {
-  margin-bottom: 9px;
 }
 .footer-social-list {
   width: 206px;
@@ -49,10 +49,10 @@
   border-radius: 50%;
   background-color: var(--ftr-link-color);
   fill: var(--first-section-color);
-}
-.footer-item-link:hover,
-.footer-item-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 .footer-pages {
   display: flex;
