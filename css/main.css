@@ -464,6 +464,15 @@ html {
   text-align: center;
 }
 
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .pursuit {
   padding-top: 0px;
   padding-bottom: 94px;
@@ -690,15 +699,6 @@ html {
 
 .button-icon {
   fill: currentColor;
-}
-
-.section-title {
-  margin-top: 0px;
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .portfolio {
