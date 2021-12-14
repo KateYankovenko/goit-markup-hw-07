@@ -1,13 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 .list {
   padding: 0px;
   margin: 0px;
@@ -15,20 +5,20 @@ html {
 }
 
 .header {
-  border-bottom: 1px solid var(--header-brd-line-color);
-  background-color: var(--first-section-color);
+  border-bottom: 1px solid $header-brd-line-color;
+  background-color: $first-section-color;
 }
 
 .link {
   position: relative;
 
   transition-property: color;
-  transition-duration: var(--animation-duration);
-  transition-timing-function: var(--animation-function);
+  transition-duration: $animation-duration;
+  transition-timing-function: $animation-function;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: none;
   }
 }
