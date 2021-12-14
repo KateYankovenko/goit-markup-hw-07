@@ -5,11 +5,11 @@
   padding-top: 0px;
   margin-bottom: 0px;
 }
-.clients-links__link {
+.clients__link {
   display: block;
   align-items: center;
 }
-.clients-links__button {
+.clients__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,6 @@
     border-color: var(--accent-color);
   }
 }
-.clients-links__icon {
+.clients__icon {
   fill: currentColor;
 }
