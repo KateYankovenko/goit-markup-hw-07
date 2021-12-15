@@ -777,17 +777,17 @@ img {
           justify-content: center;
 }
 
+.preferences .preferences__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .preferences__item {
   padding: 0px;
   margin: 0px;
   width: 270px;
 }
 
-.preferences__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.prefrences-item__card {
+.preferences-item__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -804,7 +804,7 @@ img {
   background-color: var(--second-section-color);
 }
 
-.section-depict {
+.preferences__section-depict {
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -822,17 +822,17 @@ img {
   margin-bottom: 50px;
 }
 
-.members {
+.band__members {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.band .card + .card {
+.band__members .band-members__card + .band-members__card {
   margin-left: 30px;
 }
 
-.card {
+.band-members__card {
   width: 270px;
   min-height: 368px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -841,7 +841,7 @@ img {
   background-color: var(--first-section-color);
 }
 
-.card img {
+.band-members__card img {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-top: 0px;
@@ -851,7 +851,7 @@ img {
   padding: 30px 32px;
 }
 
-.team-member {
+.team__member {
   margin-top: 0px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -860,14 +860,14 @@ img {
   text-align: center;
 }
 
-.team-item {
+.team__item {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
 }
 
-.social {
+.team__social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,7 +876,7 @@ img {
           justify-content: space-between;
 }
 
-.social-page-link {
+.team__social-page-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -893,7 +893,7 @@ img {
   fill: var(--svg-fill-color);
 }
 
-.social-page-link:hover, .social-page-link:focus {
+.team__social-page-link:hover, .team__social-page-link:focus {
   fill: var(--first-section-color);
   background-color: var(--accent-color);
 }
