@@ -6,7 +6,7 @@
   position: relative;
   display: flex;
   margin-left: 93px;
-  .list-item + .list-item {
+  .site-nav__list-item + .site-nav__list-item {
     margin-left: 50px;
   }
   .link {
@@ -39,7 +39,7 @@
     border-radius: 2px;
   }
 }
-.studio-page::after {
+.site-nav__studio-page::after {
   content: "";
   position: absolute;
   left: 0;
@@ -50,13 +50,13 @@
   border-radius: 2px;
   opacity: 0;
 }
-.studio-page:hover {
+.site-nav__studio-page:hover {
   color: var(--accent-color);
   &::after {
     opacity: 1;
   }
 }
-.second-page::after {
+.site-nav__second-page::after {
   content: "";
   position: absolute;
   left: 0;
@@ -66,7 +66,8 @@
   background: var(--accent-color);
   border-radius: 2px;
 }
-.prtf-page::after {
+
+.site-nav__prtf-page::after {
   content: "";
   position: absolute;
   left: 0;
@@ -77,7 +78,7 @@
   border-radius: 2px;
   opacity: 0;
 }
-.contacts-page::after {
+.site-nav__contacts-page::after {
   content: "";
   position: absolute;
   left: 0;
@@ -88,13 +89,13 @@
   border-radius: 2px;
   opacity: 0;
 }
-.prtf-page:hover {
+.site-nav__prtf-page:hover {
   color: var(--accent-color);
   &::after {
     opacity: 1;
   }
 }
-.contacts-page:hover {
+.site-nav__contacts-page:hover {
   color: var(--accent-color);
   &::after {
     opacity: 1;
