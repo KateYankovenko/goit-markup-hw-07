@@ -777,17 +777,17 @@ img {
           justify-content: center;
 }
 
-.pref-item {
+.preferences__item {
   padding: 0px;
   margin: 0px;
   width: 270px;
 }
 
-.pref-item:not(:last-child) {
+.preferences__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.pref-card {
+.prefrences-item__card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
