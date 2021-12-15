@@ -1,20 +1,20 @@
 .portfolio {
-  background-color: $first-section-color;
+  background-color: var(--first-section-color);
 }
 .portfolio-projects {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * $card-progects-gap);
-  margin-top: calc(-1 * $card-progects-gap);
+  margin-left: calc(-1 * var(--card-progects-gap));
+  margin-top: calc(-1 * var(--card-progects-gap));
   .project {
-    flex-basis: calc(100% / 3 - $card-progects-gap);
-    margin-left: $card-progects-gap;
-    margin-top: $card-progects-gap;
+    flex-basis: calc(100% / 3 - var(--card-progects-gap));
+    margin-left: var(--card-progects-gap);
+    margin-top: var(--card-progects-gap);
   }
 }
 .project {
   display: inline-block;
-  background-color: $section-text-color;
+  background-color: var(--section-text-color);
   a {
     text-decoration: none;
   }
@@ -51,11 +51,11 @@
   line-height: 1.55;
   margin-top: 0px;
   letter-spacing: 0.03em;
-  color: $section-text-color;
-  background: $card-bcg-color;
+  color: var(--section-text-color);
+  background: var(--card-bcg-color);
   transform: translateY(101%);
 
-  transition: transform $animation-duration $animation-function;
+  transition: transform var(--animation-duration) var(--animation-function);
 }
 .working-project:hover .project-description {
   transform: translateY(0);
@@ -65,7 +65,7 @@
   padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 4px;
-  color: $main-text-color;
+  color: var(--main-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -74,7 +74,7 @@
 .image-depict {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
 }

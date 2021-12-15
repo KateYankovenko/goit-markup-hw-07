@@ -1,5 +1,5 @@
 .footer {
-  background: $section-color;
+  background: var(--section-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -24,7 +24,7 @@
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 9px;
-  color: $section-text-color;
+  color: var(--section-text-color);
 }
 .footer-social-list {
   width: 206px;
@@ -37,7 +37,7 @@
   line-height: 1.14;
   margin-top: 0px;
   margin-bottom: 20px;
-  color: $first-section-color;
+  color: var(--first-section-color);
   text-transform: uppercase;
 }
 .footer-item-link {
@@ -47,11 +47,11 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: $ftr-link-color;
-  fill: $first-section-color;
+  background-color: var(--ftr-link-color);
+  fill: var(--first-section-color);
   &:hover,
   &:focus {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
 .footer-pages {

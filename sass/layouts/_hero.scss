@@ -4,13 +4,13 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: $section-color;
+  background-color: var(--section-color);
 }
 .hero-title {
   display: block;
   margin-top: 0px;
   margin-bottom: 30px;
-  color: $section-text-color;
+  color: var(--section-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

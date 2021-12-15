@@ -1,5 +1,5 @@
 .band {
-  background: $second-section-color;
+  background: var(--second-section-color);
 }
 .cmd {
   margin-top: 0px;
@@ -17,7 +17,7 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: $first-section-color;
+  background-color: var(--first-section-color);
   img {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -39,7 +39,7 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: $secondary-text-color;
+  color: var(--secondary-text-color);
 }
 .social {
   display: flex;
@@ -53,10 +53,10 @@
   height: 44px;
   align-items: center;
   background-color: transparent;
-  fill: $svg-fill-color;
+  fill: var(--svg-fill-color);
   &:hover,
   &:focus {
-    fill: $first-section-color;
-    background-color: $accent-color;
+    fill: var(--first-section-color);
+    background-color: var(--accent-color);
   }
 }

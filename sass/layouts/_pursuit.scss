@@ -1,7 +1,7 @@
 .pursuit {
   padding-top: 0px;
   padding-bottom: 94px;
-  background: $first-section-color;
+  background: var(--first-section-color);
 }
 .occupation {
   display: flex;
@@ -29,5 +29,5 @@
   margin-top: 0;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: $section-text-color;
+  color: var(--section-text-color);
 }

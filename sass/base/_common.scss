@@ -5,20 +5,20 @@
 }
 
 .header {
-  border-bottom: 1px solid $header-brd-line-color;
-  background-color: $first-section-color;
+  border-bottom: 1px solid var(--header-brd-line-color);
+  background-color: var(--first-section-color);
 }
 
 .link {
   position: relative;
 
   transition-property: color;
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-function;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--animation-function);
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
     text-decoration: none;
   }
 }

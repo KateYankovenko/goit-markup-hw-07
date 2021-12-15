@@ -15,15 +15,15 @@
   align-items: center;
   width: 170px;
   height: 92px;
-  color: $svg-fill-color;
-  border: 1px solid $svg-fill-color;
+  color: var(--svg-fill-color);
+  border: 1px solid var(--svg-fill-color);
   border-radius: 4px;
   padding: 0px;
   margin: 0px;
   &:hover,
   &:focus {
-    color: $accent-color;
-    border-color: $accent-color;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
   }
 }
 .clients__button-icon {

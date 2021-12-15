@@ -10,7 +10,7 @@
 .filter-button {
   box-sizing: inherit;
   margin-top: 0px;
-  background: $filter-button-color;
+  background: var(--filter-button-color);
   color: inherit;
   font-family: inherit;
   letter-spacing: 0.03em;
@@ -23,8 +23,8 @@
   border: none;
 
   transition-property: background-color;
-  transition-duration: $animation-duration;
-  transition-timing-function: $animation-function;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: var(--animation-function);
 
   first {
     display: inline-block;
@@ -53,8 +53,8 @@
   }
   &:hover,
   &:focus {
-    color: $section-text-color;
-    background: $accent-color;
+    color: var(--section-text-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
