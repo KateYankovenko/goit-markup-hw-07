@@ -552,7 +552,7 @@ img {
   color: var(--accent-color);
 }
 
-.section-hero {
+.hero__section {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 200px;
@@ -561,7 +561,7 @@ img {
   background-color: var(--section-color);
 }
 
-.hero-title {
+.hero__title {
   display: block;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -574,7 +574,7 @@ img {
   text-transform: uppercase;
 }
 
-.overlay {
+.hero__overlay {
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
