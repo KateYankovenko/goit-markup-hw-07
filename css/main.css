@@ -538,8 +538,8 @@ img {
   margin-left: 30px;
 }
 
-.contact-footer,
-.footer-addr {
+.footer__contact,
+.footer__addr {
   color: var(--ftr-cnt-color);
   font-size: 14px;
   line-height: 1.7;
@@ -547,8 +547,8 @@ img {
   text-decoration: none;
 }
 
-.contact-footer:hover,
-.contact-footer:focus {
+.footer__contact:hover,
+.footer__contact:focus {
   color: var(--accent-color);
 }
 
@@ -1289,7 +1289,7 @@ img {
   padding-bottom: 60px;
 }
 
-.footer-flex {
+.footer__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1303,7 +1303,7 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-info {
+.footer__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1313,24 +1313,24 @@ img {
   min-height: 81px;
 }
 
-.footer-info .contact-footer:not(:last-child) {
+.footer__info .contact-footer:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-addr {
+.footer__addr {
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 9px;
   color: var(--section-text-color);
 }
 
-.footer-social-list {
+.footer__social-list {
   width: 206px;
   height: 80px;
   margin-left: 70px;
 }
 
-.footer-social-title {
+.footer__social-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -1340,7 +1340,7 @@ img {
   text-transform: uppercase;
 }
 
-.footer-item-link {
+.footer__item-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1357,11 +1357,11 @@ img {
   fill: var(--first-section-color);
 }
 
-.footer-item-link:hover, .footer-item-link:focus {
+.footer__item-link:hover, .footer__item-link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-pages {
+.footer__pages {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1384,7 +1384,7 @@ img {
   margin-right: 0;
 }
 
-.subscription {
+.subscribe__subscription {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1396,14 +1396,14 @@ img {
           align-items: center;
 }
 
-.subform-text {
+.subscribe__subform-text {
   display: block;
   margin-top: 0;
   margin-bottom: 20px;
   color: var(--section-text-color);
 }
 
-.subscribe-form {
+.subscribe__form {
   display: inline-block;
   width: 358px;
   min-height: 50px;
@@ -1416,7 +1416,7 @@ img {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.sign-button {
+.sign__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1425,11 +1425,11 @@ img {
           align-items: flex-end;
 }
 
-.icon-letter {
+.sign__icon-letter {
   margin-left: 10px;
 }
 
-.footer-submit-button {
+.sign__footer-submit-button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

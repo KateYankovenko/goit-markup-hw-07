@@ -26,15 +26,15 @@
 .contact-item:not(:first-child) {
   margin-left: 30px;
 }
-.contact-footer,
-.footer-addr {
+.footer__contact,
+.footer__addr {
   color: var(--ftr-cnt-color);
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
   text-decoration: none;
 }
-.contact-footer:hover,
-.contact-footer:focus {
+.footer__contact:hover,
+.footer__contact:focus {
   color: var(--accent-color);
 }
