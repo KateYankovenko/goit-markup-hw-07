@@ -898,7 +898,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.clients-links {
+.clients__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
